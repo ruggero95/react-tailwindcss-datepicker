@@ -8,6 +8,7 @@
     "author": "onesine",
     "license": "MIT",
     "scripts": {
+        "prepare": "npm run build",
         "watch": "rollup -c -w",
         "clean": "rm -rf dist",
         "lint": "eslint .",
